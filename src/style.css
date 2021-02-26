@@ -54,15 +54,16 @@ body {
 .pet img {
   width: 100px;
   min-height: 100px;
+  border-radius: 50%;
 }
 
 .info {
-  float: left;
+  float: right;
   width: 80%;
   height: 100px;
   padding-top: 10px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .image-container {

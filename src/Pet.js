@@ -1,5 +1,5 @@
 import React from "react";
-//export default function Pet({ name, animal, breed, media, location, id }) {
+import { Link } from "@reach/router";
 const Pet = (props) => {
   const { name, animal, breed, media, location, id } = props;
 
